@@ -1,0 +1,61 @@
+a= input('Escolha umas das palavras: 1-oi \n 2-casa \n 3-facil \n 4-banana \n 5-onda\n 6-olhos \n 7-bola \n 8- dançar \n 9- ventilador \n 10-fogo')
+palavra= input(' Escolha um idioma: 1-inglês 2-espanhol 3-português')
+match a:
+
+    case "oi" :
+        if palavra=="1":
+            print(' Em inglês essa palavra é: Hi')
+        elif palavra=="2":
+            print(' Em espanhol essa palavra é: Ey')
+        else:
+            print( 'Em português essa palavra é: fala ai') 
+    case "casa":
+        if palavra=="1":
+            print(' Em inglês essa palavra é: house ')
+        elif palavra=="2":
+            print(' Em espanhol essa palavra é: casa')
+        else:
+            print( 'Em portugues essa palavra é:casa')
+
+-------- Função Match e case trabalhando IF e Else, exemplo de um tradutor.
+
+
+
+----------------------Função boletim, trabalhando if/else trabalhando lógica de programação/matemática
+
+a= int(input('Digite sua nota'))
+b= int(input('Digite sua nota'))
+c= int(input('Digite sua nota'))
+d= int(input('Digite sua nota'))
+media = (a+b+c+d)/4
+if media >= 8 and media <=10:
+    print('Você tirou conceito A')
+elif media> 6 and media <8:
+    print('Você tirou conceito B')
+elif media>4:
+    print('Você tirou conceito C')
+elif media<4:
+    print('Você foi reprovado filhão')
+
+
+
+
+------------------------- Calculadora:
+numero1 = input("Digite o primeiro numero: ")
+numero2 = input("Digite o segundo numero: ")
+input('escolha uma operação:')
+if operacao == "soma":
+    resultado = int(numero1) + int(numero2)  
+elif operacao == "sub":
+    resultado = int(numero1) - int(numero2)
+elif operacao == "mult":
+    resultado = int(numero1) * int(numero2)
+elif operacao == "div":
+    resultado = int(numero1) / int(numero2)
+else:
+    resultado = "operador não suportado, use soma, sub, mult ou div."
+
+print("O resultado da operação é: " + str(resultado))
+
+
+
